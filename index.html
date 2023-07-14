@@ -1,0 +1,852 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>E State Website</title>
+  <link rel="stylesheet" href="./css/owl.carousel.css">
+  <link rel="stylesheet" href="./css/owl.theme.green.css">
+
+  <link rel="stylesheet" href="index.css" />
+
+  <!-- Carousel   -->
+  <!-- Waypoint -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <!-- Icons -->
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+    integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- Fontawesome  -->
+
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Lato&family=Open+Sans&family=Roboto&family=Ubuntu&display=swap"
+    rel="stylesheet" />
+
+
+
+
+</head>
+
+<body>
+  <!-- Small Info Section  Starts -->
+  <section class="Small-info">
+    <div class="Small-info-loc">
+
+      <div class="location">
+      <i class="fa-solid fa-envelope" style="color: #ff0000">
+      <p>info@estate.com</p></i>
+      <i class="fa-solid fa-location-dot" style="color: #ff0000;">
+        <p>32/11 anarwala</p></i>
+
+    </div>
+      <div class="Small-info-social-media"> 
+      <i class="fa-brands fa-facebook" ></i>
+      <i class="fa-brands fa-instagram"></i>
+      <i class="fa-brands fa-twitter" ></i>
+      <i class="fa-brands fa-pinterest" ></i>
+    </div>
+   
+
+    <button class="Small-info-button">Add Listing</button>
+  </div>
+  </section>
+
+  <!-- Small Info Section Ends -->
+
+  <!-- Navbar Section Starts -->
+
+  <section class="Navbar">
+    <div class="Logo">
+      <img src="images/icons8-real-estate-16.png" alt="" />
+      <h2><span>R</span>EAL<span>E</span>STATE</h2>
+    </div>
+    <div class="nav-lists">
+      <ul>
+        <li><a href="#About" id="About-us">ABOUT US</a></li>
+        <li><a href="#Services">SERVICES</a></li>
+        <li><a href="#Property">PROPERTIES</a></li>
+        <li><a href="#Amenities">AMINITIES</a></li>
+        <li><a href="#Newsandblog">NEWS & BLOGS</a></li>
+      </ul>
+    </div>
+    <div class="Nav-search">
+      <i class="fa-solid fa-magnifying-glass"></i>
+      <i class="fa-solid fa-user"></i>
+      <i class="fa-solid fa-cart-shopping"></i>
+    </div>
+  </section>
+
+  <!-- Navbar Section Ends -->
+
+  <!-- Home Section Starts -->
+
+  <section class="Home" id="About">
+    <img src="Images/etienne-beauregard-riverin-B0aCvAVSX8E-unsplash (1).jpg" alt="" />
+    <div class="Home-content">
+      <h3 id="Time">
+        IT'S TIME <br />
+        TO THINK
+      </h3>
+      <h3 id="box">OUTSIDE THE BOX</h3>
+      <h3>ON REAL ESTATE</h3>
+    </div>
+  </section>
+
+  <!-- Home Section Ends -->
+
+  <!-- Services Section Starts -->
+
+  <section class="Services" id="Services">
+    <div class="Services-Heading">
+      <h2>Our Services</h2>
+      <h3>Find Your Dream Home With Us</h3>
+      <i class="un fa-solid fa-arrow-left" id="Left-arrow" style="color: #050505" onclick="controller(-1)"></i>
+      <i class="un fa-solid fa-arrow-right" id="right-arrow" style="color: #000000" onclick="controller(1)"></i>
+    </div>
+
+    <div class="Main-Service-body">
+      <div class="Main-Service-body-1 kkl">
+        <h2 id="Slider-h2">Key Match</h2>
+        <div class="Image-slider">
+          <img src="Images/key-match.jpg" alt="" />
+        </div>
+      </div>
+
+      <div class="Main-Service-body-2 kkl">
+        <h2 id="Slider-h2">Home Finder</h2>
+        <div class="Image-slider">
+          <img src="Images/Home-Finder.jpeg" alt="" />
+        </div>
+      </div>
+
+      <div class="Main-Service-body-3 kkl">
+        <h2 id="Slider-h2">Dream Space</h2>
+        <div class="Image-slider">
+          <img src="Images/dream-space.jpg" alt="" />
+        </div>
+      </div>
+
+      <div class="Main-Service-body-4 kkl">
+        <h2 id="Slider-h2">Place Perfect</h2>
+        <div class="Image-slider">
+          <img src="Images/place-perfect.jpg" alt="" />
+        </div>
+      </div>
+
+      <div class="Main-Service-body-5 kkl">
+        <h2 id="Slider-h2">Home vision</h2>
+        <div class="Image-slider">
+          <img src="Images/Home-vision.jpg" alt="" />
+        </div>
+      </div>
+
+      <div class="Main-Service-body-6 kkl">
+        <h2 id="Slider-h2">Move Mate</h2>
+        <div class="Image-slider">
+          <img src="Images/move-mate.jpg" alt="" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services Section Ends -->
+
+  <!-- Property Section Starts -->
+  <section class="Property" id="Property">
+    <h2>Our Features Property</h2>
+
+    <div class="Property-Card">
+      <div class="uniquecards property-card-1">
+        <div class="uc card-1">
+          <img src="Images/property-1.jpg" alt="" />
+          <h4>8705 West Pineknoll Lane Brooklyn, NY 11229</h4>
+
+          <div class="icons">
+            <div class="icons-1">
+              <i class="fa-solid fa-building" style="color: #ff0000;"></i>
+              <p class="icons-para">Virtual</p>
+
+
+            </div>
+
+            <div class="icons-1">
+              <i class="fa-solid fa-tape" style="color: #ff0000"></i>
+              <p class="icons-para">3000 sq ft</p>
+
+            </div>
+
+            <div class="icons-1">
+              <i class="fa-sharp fa-solid fa-bed" style="color: #ff0000;"></i>
+              <p class="icons-para">4 Rooms</p>
+
+            </div>
+
+            <div class="icons-1">
+              <i class="fa-solid fa-trowel-bricks" style="color: #ff0000"></i>
+              <p class="icons-para">2018</p>
+
+            </div>
+          </div>
+          <div class="eye">
+            <hr />
+            <p>$2000/mo</p>
+            <i class="fa-solid fa-eye" style="color: #ff0000"></i>
+          </div>
+        </div>
+        <div class="uc card-1">
+          <img src="Images/property-2.jpg" alt="" />
+          <h4>8705 West Pineknoll Lane Brooklyn, NY 11229</h4>
+
+          <div class="icons">
+            <div class="icons-1">
+              <i class="fa-solid fa-building" style="color: #ff0000;"></i>
+              <p class="icons-para">Virtual</p>
+
+
+            </div>
+
+            <div class="icons-1">
+              <i class="fa-solid fa-tape" style="color: #ff0000"></i>
+              <p class="icons-para">3000 sq ft</p>
+
+            </div>
+
+            <div class="icons-1">
+              <i class="fa-sharp fa-solid fa-bed" style="color: #ff0000;"></i>
+              <p class="icons-para">4 Rooms</p>
+
+            </div>
+
+            <div class="icons-1">
+              <i class="fa-solid fa-trowel-bricks" style="color: #ff0000"></i>
+              <p class="icons-para">2018</p>
+
+            </div>
+          </div>
+          <div class="eye">
+            <hr />
+            <p>$2000/mo</p>
+            <i class="fa-solid fa-eye" style="color: #ff0000"></i>
+          </div>
+        </div>
+        <div class="uc card-1">
+          <img src="Images/property-3.jpg" alt="" />
+          <h4>8705 West Pineknoll Lane Brooklyn, NY 11229</h4>
+
+          <div class="icons">
+            <div class="icons-1">
+              <i class="fa-solid fa-building" style="color: #ff0000;"></i>
+              <p class="icons-para">Virtual</p>
+
+
+            </div>
+
+            <div class="icons-1">
+              <i class="fa-solid fa-tape" style="color: #ff0000"></i>
+              <p class="icons-para">3000 sq ft</p>
+
+            </div>
+
+            <div class="icons-1">
+              <i class="fa-sharp fa-solid fa-bed" style="color: #ff0000;"></i>
+              <p class="icons-para">4 Rooms</p>
+
+            </div>
+
+            <div class="icons-1">
+              <i class="fa-solid fa-trowel-bricks" style="color: #ff0000"></i>
+              <p class="icons-para">2018</p>
+
+            </div>
+          </div>
+          <div class="eye">
+            <hr />
+            <p>$2000/mo</p>
+            <i class="fa-solid fa-eye" style="color: #ff0000"></i>
+          </div>
+        </div>
+
+
+
+
+
+
+
+      </div>
+
+
+      <div class="uniquecards property-card-2">
+
+
+        <div class="uc card-1">
+          <img src="Images/property-4.jpg" alt="" />
+          <h4>8705 West Pineknoll Lane Brooklyn, NY 11229</h4>
+
+          <div class="icons">
+            <div class="icons-1">
+              <i class="fa-solid fa-building" style="color: #ff0000;"></i>
+              <p class="icons-para">Virtual</p>
+
+
+            </div>
+
+            <div class="icons-1">
+              <i class="fa-solid fa-tape" style="color: #ff0000"></i>
+              <p class="icons-para">3000 sq ft</p>
+
+            </div>
+
+            <div class="icons-1">
+              <i class="fa-sharp fa-solid fa-bed" style="color: #ff0000;"></i>
+              <p class="icons-para">4 Rooms</p>
+
+            </div>
+
+            <div class="icons-1">
+              <i class="fa-solid fa-trowel-bricks" style="color: #ff0000"></i>
+              <p class="icons-para">2018</p>
+
+            </div>
+          </div>
+          <div class="eye">
+            <hr />
+            <p>$2000/mo</p>
+            <i class="fa-solid fa-eye" style="color: #ff0000"></i>
+          </div>
+        </div>
+        <div class="uc card-1">
+          <img src="Images/property-5.jpg" alt="" />
+          <h4>8705 West Pineknoll Lane Brooklyn, NY 11229</h4>
+
+          <div class="icons">
+            <div class="icons-1">
+              <i class="fa-solid fa-building" style="color: #ff0000;"></i>
+              <p class="icons-para">Virtual</p>
+
+
+            </div>
+
+            <div class="icons-1">
+              <i class="fa-solid fa-tape" style="color: #ff0000"></i>
+              <p class="icons-para">3000 sq ft</p>
+
+            </div>
+
+            <div class="icons-1">
+              <i class="fa-sharp fa-solid fa-bed" style="color: #ff0000;"></i>
+              <p class="icons-para">4 Rooms</p>
+
+            </div>
+
+            <div class="icons-1">
+              <i class="fa-solid fa-trowel-bricks" style="color: #ff0000"></i>
+              <p class="icons-para">2018</p>
+
+            </div>
+          </div>
+          <div class="eye">
+            <hr />
+            <p>$2000/mo</p>
+            <i class="fa-solid fa-eye" style="color: #ff0000"></i>
+          </div>
+        </div>
+        <div class="uc card-1">
+          <img src="Images/property-6.jpg" alt="" />
+          <h4>8705 West Pineknoll Lane Brooklyn, NY 11229</h4>
+
+          <div class="icons">
+            <div class="icons-1">
+              <i class="fa-solid fa-building" style="color: #ff0000;"></i>
+              <p class="icons-para">Virtual</p>
+
+
+            </div>
+
+            <div class="icons-1">
+              <i class="fa-solid fa-tape" style="color: #ff0000"></i>
+              <p class="icons-para">3000 sq ft</p>
+
+            </div>
+
+            <div class="icons-1">
+              <i class="fa-sharp fa-solid fa-bed" style="color: #ff0000;"></i>
+              <p class="icons-para">4 Rooms</p>
+
+            </div>
+
+            <div class="icons-1">
+              <i class="fa-solid fa-trowel-bricks" style="color: #ff0000"></i>
+              <p class="icons-para">2018</p>
+
+            </div>
+          </div>
+          <div class="eye">
+            <hr />
+            <p>$2000/mo</p>
+            <i class="fa-solid fa-eye" style="color: #ff0000"></i>
+          </div>
+
+
+
+
+
+
+
+
+
+        </div>
+
+
+      </div>
+
+
+
+
+      <div class="uniquecards property-card-3">
+        <div class="uc card-1">
+          <img src="Images/property-7.jpg" alt="" />
+          <h4>8705 West Pineknoll Lane Brooklyn, NY 11229</h4>
+
+          <div class="icons">
+            <div class="icons-1">
+              <i class="fa-solid fa-building" style="color: #ff0000;"></i>
+              <p class="icons-para">Virtual</p>
+
+
+            </div>
+
+            <div class="icons-1">
+              <i class="fa-solid fa-tape" style="color: #ff0000"></i>
+              <p class="icons-para">3000 sq ft</p>
+
+            </div>
+
+            <div class="icons-1">
+              <i class="fa-sharp fa-solid fa-bed" style="color: #ff0000;"></i>
+              <p class="icons-para">4 Rooms</p>
+
+            </div>
+
+            <div class="icons-1">
+              <i class="fa-solid fa-trowel-bricks" style="color: #ff0000"></i>
+              <p class="icons-para">2018</p>
+
+            </div>
+          </div>
+          <div class="eye">
+            <hr />
+            <p>$2000/mo</p>
+            <i class="fa-solid fa-eye" style="color: #ff0000"></i>
+          </div>
+        </div>
+        <div class="uc card-1">
+          <img src="Images/property-8.jpg" alt="" />
+          <h4>8705 West Pineknoll Lane Brooklyn, NY 11229</h4>
+
+          <div class="icons">
+            <div class="icons-1">
+              <i class="fa-solid fa-building" style="color: #ff0000;"></i>
+              <p class="icons-para">Virtual</p>
+
+
+            </div>
+
+            <div class="icons-1">
+              <i class="fa-solid fa-tape" style="color: #ff0000"></i>
+              <p class="icons-para">3000 sq ft</p>
+
+            </div>
+
+            <div class="icons-1">
+              <i class="fa-sharp fa-solid fa-bed" style="color: #ff0000;"></i>
+              <p class="icons-para">4 Rooms</p>
+
+            </div>
+
+            <div class="icons-1">
+              <i class="fa-solid fa-trowel-bricks" style="color: #ff0000"></i>
+              <p class="icons-para">2018</p>
+
+            </div>
+          </div>
+          <div class="eye">
+            <hr />
+            <p>$2000/mo</p>
+            <i class="fa-solid fa-eye" style="color: #ff0000"></i>
+          </div>
+        </div>
+        <div class="uc card-1">
+          <img src="Images/property-9.jpg" alt="" />
+          <h4>8705 West Pineknoll Lane Brooklyn, NY 11229</h4>
+
+          <div class="icons">
+            <div class="icons-1">
+              <i class="fa-solid fa-building" style="color: #ff0000;"></i>
+              <p class="icons-para">Virtual</p>
+
+
+            </div>
+
+            <div class="icons-1">
+              <i class="fa-solid fa-tape" style="color: #ff0000"></i>
+              <p class="icons-para">3000 sq ft</p>
+
+            </div>
+
+            <div class="icons-1">
+              <i class="fa-sharp fa-solid fa-bed" style="color: #ff0000;"></i>
+              <p class="icons-para">4 Rooms</p>
+
+            </div>
+
+            <div class="icons-1">
+              <i class="fa-solid fa-trowel-bricks" style="color: #ff0000"></i>
+              <p class="icons-para">2018</p>
+
+            </div>
+          </div>
+          <div class="eye">
+            <hr />
+            <p>$2000/mo</p>
+            <i class="fa-solid fa-eye" style="color: #ff0000"></i>
+          </div>
+
+        </div>
+
+
+      </div>
+
+
+      <hr class="head">
+  </section>
+
+
+  <!-- Property Section Ends -->
+
+
+  <!-- Amenities section Starts -->
+
+  <section class="Amenities" id="Amenities">
+    <h3 id="Amenities-h3">Amenities you deserve
+      Lease rates you’ll love.</h3>
+
+    <div class="Amenities-content">
+
+
+
+
+      <div class="Content-Cards Card-1">
+        <div class="Content-cards-image">
+          <img src="Images/security.jpg" alt="">
+        </div>
+        <div class="Content-cards-content">
+          <h3 class="A-h3">Security</h3>
+          <p>Not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It
+            was popularised in the 1960s
+            And more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum
+          </p>
+        </div>
+      </div>
+
+      <div class="Content-Cards Card-2">
+        <div class="Content-cards-image">
+          <img src="Images/private-gym.jpg" alt="">
+        </div>
+        <div class="Content-cards-content">
+          <h3 class="A-h3">Private Gym</h3>
+          <p>Not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It
+            was popularised in the 1960s
+            And more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum
+          </p>
+        </div>
+      </div>
+
+      <div class="Content-Cards Card-3">
+        <div class="Content-cards-image">
+          <img src="Images/Backup-batteries.jpg" alt="">
+        </div>
+        <div class="Content-cards-content">
+          <h3 class="A-h3">Power Backup</h3>
+          <p>Not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It
+            was popularised in the 1960s
+            And more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum
+          </p>
+        </div>
+      </div>
+
+      <div class="Content-Cards Card-4">
+        <div class="Content-cards-image">
+          <img src="Images/sanitation.jpg" alt="">
+        </div>
+        <div class="Content-cards-content">
+          <h3 class="A-h3">Proper Sanitation</h3>
+          <p>Not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It
+            was popularised in the 1960s
+            And more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum
+          </p>
+        </div>
+      </div>
+
+      <div class="Content-Cards Card-5">
+        <div class="Content-cards-image">
+          <img src="Images/greenly.jpg" alt="">
+        </div>
+        <div class="Content-cards-content">
+          <h3 class="A-h3">Greenly</h3>
+          <p>Not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It
+            was popularised in the 1960s
+            And more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum
+          </p>
+        </div>
+      </div>
+
+      <div class="Content-Cards Card-6">
+        <div class="Content-cards-image">
+          <img src="Images/health.jpg" alt="">
+        </div>
+        <div class="Content-cards-content">
+          <h3 class="A-h3">Health Facility</h3>
+          <p>Not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It
+            was popularised in the 1960s
+            And more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum
+          </p>
+        </div>
+      </div>
+
+
+
+
+
+    </div>
+    <hr class="head">
+  </section>
+
+
+
+  <!-- Amenities section Ends -->
+
+  <!-- News And Blog section Starts -->
+
+
+  <section class="News-and-blog" id="Newsandblog">
+
+    <h2 id="News-h2">NEWS AND BLOG</h2>
+
+    <div class="News-And-Blog-Content">
+      <div class="owl-carousel owl-theme">
+        <div class="item">
+          <img src="Images/blog-image-1.jpg" alt="">
+          <div class="content">
+            <h2>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sit debitis maiores pariatur accusantium, ea
+              placeat?</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus inventore adipisci ea placeat possimus
+              voluptatem pariatur, officia commodi neque consectetur reprehenderit doloremque explicabo Lorem ipsum
+              dolor sit amet consectetur adipisicing elit. Dolore blanditiis dolorem provident animi, doloribus illo
+              porro totam cumque sed nam eos praesentium aperiam neque voluptates laudantium magnam velit nihil
+              molestias dolor debitis iure tenetur!</p>
+          </div>
+
+          <div class="social">
+            <p>Read More</p>
+            <div class="social-icons">
+              <i class="fa-solid fa-share" style="color: #ff0000;"></i>
+              <i class="fa-solid fa-comment" style="color: #ff0000;"></i>
+              <i class="fa-regular fa-star" style="color: #ff0000;"></i>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="item">
+
+          <img src="Images/blog-image-2.jpg" alt="">
+          <div class="content">
+            <h2>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sit debitis maiores pariatur accusantium, ea
+              placeat?</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus inventore adipisci ea placeat possimus
+              voluptatem pariatur, officia commodi neque consectetur reprehenderit doloremque explicabo Lorem ipsum
+              dolor sit amet consectetur adipisicing elit. Dolore blanditiis dolorem provident animi, doloribus illo
+              porro totam cumque sed nam eos praesentium aperiam neque voluptates laudantium magnam velit nihil
+              molestias dolor debitis iure tenetur!</p>
+          </div>
+
+          <div class="social">
+            <p>Read More</p>
+            <div class="social-icons">
+               <i class="fa-solid fa-share" style="color: #ff0000;"></i>
+              <i class="fa-solid fa-comment" style="color: #ff0000;"></i>
+              <i class="fa-regular fa-star" style="color: #ff0000;"></i>
+            </div>
+          </div>
+        </div>
+
+        <div class="item">
+          <img src="Images/blog-image-3.jpg" alt="">
+          <div class="content">
+            <h2>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sit debitis maiores pariatur accusantium, ea
+              placeat?</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus inventore adipisci ea placeat possimus
+              voluptatem pariatur, officia commodi neque consectetur reprehenderit doloremque explicabo Lorem ipsum
+              dolor sit amet consectetur adipisicing elit. Dolore blanditiis dolorem provident animi, doloribus illo
+              porro totam cumque sed nam eos praesentium aperiam neque voluptates laudantium magnam velit nihil
+              molestias dolor debitis iure tenetur!</p>
+          </div>
+
+          <div class="social">
+            <p>Read More</p>
+            <div class="social-icons">
+              <i class="fa-solid fa-share" style="color: #ff0000;"></i>
+              <i class="fa-solid fa-comment" style="color: #ff0000;"></i>
+              <i class="fa-regular fa-star" style="color: #ff0000;"></i>
+            </div>
+          </div>
+        </div>
+
+        <div class="item">
+          <img src="Images/blog-image-4.jpg" alt="">
+          <div class="content">
+            <h2>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sit debitis maiores pariatur accusantium, ea
+              placeat?</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus inventore adipisci ea placeat possimus
+              voluptatem pariatur, officia commodi neque consectetur reprehenderit doloremque explicabo Lorem ipsum
+              dolor sit amet consectetur adipisicing elit. Dolore blanditiis dolorem provident animi, doloribus illo
+              porro totam cumque sed nam eos praesentium aperiam neque voluptates laudantium magnam velit nihil
+              molestias dolor debitis iure tenetur!</p>
+          </div>
+
+          <div class="social">
+            <p>Read More</p>
+            <div class="social-icons">
+              <i class="fa-solid fa-share" style="color: #ff0000;"></i>
+              <i class="fa-solid fa-comment" style="color: #ff0000;"></i>
+              <i class="fa-regular fa-star" style="color: #ff0000;"></i>
+            </div>
+          </div>
+        </div>
+
+
+      </div>
+
+
+
+
+
+
+
+
+    </div>
+
+
+
+
+
+
+
+
+    <hr class="head">
+  </section>
+
+  <!-- News And Blog section Ends -->
+
+  <!-- Special box section starts  -->
+
+  <section class="Special-Box">
+    <div class="S-content">
+    <h3>Looking For a Dream Home?</h3>
+    <p>We can help you to find out your own dream home</p>
+
+  </div>
+
+  <div class="button">
+    <button>Explore Properties   →</button>
+  </div>
+  </section>
+
+  <!-- Special box section ends  -->
+
+  <!-- Footer section Starts  -->
+
+  <section class="Footer">
+    <div class="Footer-logo">
+      <div class="F-Logo">
+        <svg id="L-image" width="66" height="59" viewBox="0 0 66 59" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+          <rect width="66" height="59" fill="url(#pattern0)"/>
+          <defs>
+          <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
+          <use xlink:href="#image0_23_2" transform="matrix(0.015625 0 0 0.0174788 0 -0.059322)"/>
+          </pattern>
+          <image id="image0_23_2" width="64" height="64" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAACXBIWXMAAAsTAAALEwEAmpwYAAAFb0lEQVR4nO1a64scRRD/JcZXNBol+AgmRqMiiiEQIwYDB9Ecl92u2Yuyih+Mfoh+CMQvgoJwxIB6KChIIvrBJ+SDYBB8bEQhGjQSFT2jRoLx/YgmuT/iJ907M9uzO7M7s9Ozj3MLGuZueqqqf11VXV21wIhG1DciMI8CRYWDZuhnYB7+D0QPN1LhXQpmm8YHFNyCuUpUuJaCPeGCFX6g4D4z6s8BEHv0XMwV4mZcSsEzVDjhL/APCqboYVE4p4qzqfAgBb/44JykwstUWI5hJW7EORQ8TIW//IX/Y4DYjIsSvxnHhQYcheM+EMep8CRvw/kYFmIVZ7CMLRQc9Rd+yuym4IrUPCZwmW81J30ex4yFTOBMDCpxB+ZT4S4qzFj+/BZLWB0738NSKjxlhoelsXNKWG14NOLGjJGxA/MxSESFMSp8ZCl6kB68lK7R0dSz8O8pMW6HBHfG7ZBxDYVtxpwbrvGSGfq5Yerb9NxYC9O8U1pYocQKlqX1UaO4B4+CryzF97GMmxKBFBw2caSK01LHmDKuLH7h49midFbTzelKHU+ZrokKC2PP6QqWxc7PsKPdWExsniH4NynP6H7hY1hgFFc4Yimzl4Lr87qG6+OUZVztvw+s50cjOyaepCIq3EqFzy2G71NhXcLcJRRMW66hzXLKRQKjefhuVzf1ugwta0mCLuuMrg299Ro2ZBes8KfP4FDSbc24huAhKvzmz9Xp7nNJ53oeMnmD5h2k1HWZWvbCNrfNQ4FbZBcoPoJjWBDrGn26xCReqpL1NPOyC5L4D02kFnzS72tsy7Vam7oOnk2W6gwAphTYa/KPzsQNyQ0AXUfXAqjdaZUfABXe44O/W4LOoJAflGfjdM/OTML8XGdY050YmWSlIbzW6/fWvGDOtK+7ySG6AWAnFXaxghU24zbzaxby7/X6fTMA5rmCFfSwi4LHsq6/hbo2pR5TYXpyBACGKgbANXEIY4BT4sgFMAqCbOcC9arwHRR8QcHHFGxEH6gvLsB6Pr4/koUFlRzBzc6V6VJP54wpWEXBm9aCD1NwNwUPmDtDUMkRvELBO3PmFKDCcgpeDEtfCj9RsJ334qxwvodFFDwaFlaiOfrwngJUeCIsfQn+1mkmy7gg8bsSLqHgWato+TsFj7CKc50rWRQA1N3b6A7qnd+te3gtjQtdza3fzyciPDbhGgpet/gcpcJWrsHpAwsA9T1b4R4KvrcUf4MermsSuoGCA3GmToW1kbkKayPmLPiSCpOG7yDFACpsouAzazEfUmF9h/r/N36DdKtVztbfvqYLK5FvyyhF+OeMEc4AYBlrqPC2JWzGVFusfl+a+n/YTFH41XKb53VMaGmCRPt9e1nBDV3rn6MAcpVf+goKIS2lr25+wMBqyzf6VJjiBM6L+YXIzyFYWpcSLi8cAAou7hSlXdT/OYmVVHg1BFjnCR7ujwBcB+vxllOmgsXFAaBC89Plo6ft5mIR9X/jYtGkSPcAb7eryy15hmBfkRYwa8YkVrbprLRtjXVDVBin4FOL/36dUjfNWe+/+y7rejAM9X82OsFfR4KgYJXV+e0NAGxtOR1Jajm5Jp1Cm1TaDoKCF3RLvBmApnwgcaQXLoNT/9cpdZMOJ2IAqLkG4FSa+n9SJubq/9b74N1u67L1bYb1ZAZgZ5r6f1Im5ur/cQvQKbefm2wvDIDCcuk+yS8UAOqoXcHi2OHox4sDCwB1XhBE6fgLjC6KKFcxwLX+uRkwyAb1QuOGf3S6jAEu9c/NgB0Yu4odIwBkjlgA8+cBLketHwDU8sQAp6NNBWnOxYDcxBEAGFkA27hAYiY4rC7AlPfrPo9akQDUBmCB7qL4iEaENPQfCt9+y4krcrwAAAAASUVORK5CYII="/>
+          </defs>
+          </svg>
+          
+        <h2><span>R</span>EAL<span>E</span>STATE</h2>
+      </div>
+
+      <div class="F-content">
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam molestiae est enim, cum consequuntur nesciunt quasi in dolore excepturi iste nemo non saepe soluta alias?</p>
+      </div>
+    </div>
+
+
+    <div class="Footer-nav">
+
+      <li><a href="#About">ABOUT US</a></li>
+      <li><a href="#Services">SERVICES</a></li>
+      <li><a href="#Property">PROPERTIES</a></li>
+      <li><a href="#Amenities">AMINITIES</a></li>
+      <li><a href="#Newsandblog">NEWS & BLOGS</a></li>
+
+    </div>
+
+    <div class="Footer-Contact">
+<h3>Contact Us</h3>
+
+<div class="F-icons">
+  <i class="fa-solid fa-envelope" style="color: #ff0000">
+  <p>info@estate.com</p></i>
+  <i class="fa-solid fa-location-dot" style="color: #ff0000;">
+  <p>32/11 anarwala</p></i>
+  <i class="fa-solid fa-phone" style="color: #ff0000;">
+  <p>+91 5698690098</p></i>
+</div>
+    </div>
+
+    <div class="Footer-Signup">
+<h3>Sign Up for updates</h3>
+<input type="email" placeholder="Enter Your Email">
+<button>Subscribe</button>
+
+
+    </div>
+  </section>
+
+ 
+    <div class="Copyright">
+      <hr id="head-2">
+      <h4>Made with ❤️ by Bikram Singh Bist</h4>
+    </div>
+ 
+
+
+
+
+  <!-- Footer section ends  -->
+
+
+
+
+
+  <!-- java Script  -->
+  <script src="js/jquery.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="jquery/jquery-3.1.1.min.js"></script>
+
+  <script src="index.js"></script>
+
+</body>
+
+</html>
